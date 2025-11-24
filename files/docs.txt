@@ -1,6 +1,0 @@
-Python 3.13.9 (Python 3.14 does not work with pyarrow as of 20251120)
-pip install pyarrow
-pip install setuptools streamlit pandas numpy matplotlib
-pip install streamlit-option-menu
-
- streamlit run .\python\UI.py (run in webbrowser)

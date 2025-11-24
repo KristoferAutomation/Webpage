@@ -14,7 +14,7 @@ def local_css(file_name):
 
 def main():
     #Pages#####################################################
-    pageIcon = Image.open('./logo/FullLogo.png')
+    pageIcon = Image.open('FullLogo.png')
     st.set_page_config(
         page_title='Kristofer Automation',
         page_icon = pageIcon
@@ -28,7 +28,7 @@ def main():
     """
     st.markdown(hide_st_style, unsafe_allow_html=True)
     #Display logo on top#######################################
-    logo = Image.open('./logo/FullLogo.png') 
+    logo = Image.open('FullLogo.png') 
     st.image(logo)
     #Menu######################################################
     selected = option_menu(
@@ -40,7 +40,7 @@ def main():
         orientation = 'horizontal',
     )
     if selected == 'Vad jag kan hjälpa till med':
-        read('./Files/home.txt')
+        read('home.txt')
         # selectExample = st.radio(
         #     'Exempel/förslag',
         #     ["UI"],
@@ -49,7 +49,7 @@ def main():
         #         index=None)
 
     if selected == 'CV':
-        read('./Files/KristoferWestergrenCV.txt')
+        read('KristoferWestergrenCV.txt')
     if selected == 'Kontakt':
         st.header(':mailbox: Kontakta mig')
         contact_form = """
@@ -62,9 +62,9 @@ def main():
         </form
         """
         st.markdown(contact_form, unsafe_allow_html=True)
-        local_css("./style/style.css")
+        local_css("style.css")
     if selected == 'Mina kontaktuppgifter':
-        read('./Files/contactInfo.txt') 
+        read('contactInfo.txt') 
     ###########################################################
 
 if __name__ == '__main__':
