@@ -1,0 +1,50 @@
+Några av projekten jag gjort:
+
+##################################################################################
+
+	HoleControl/CameraControl: 
+		Ett interface object (funktionsblock) som kan köras med Siemens eller TwinCAT (olika bibliotek men samma kod).
+		I dagsläget implementerat på 4 olika maskinceller hos kund och en till är pågång.
+
+##################################################################################
+
+	V2007 Prototype 2025:
+		En robot/svetscell programmerad i Siemens TIA där jag även gjort eldokumentationen. 
+
+##################################################################################
+
+	Skylark:
+		Ett PLC programm gjort i Emerson (Codesys) för att rikta raketer vid uppskjutning (Azimuth och Elevation)
+
+##################################################################################
+
+	Fettpump:
+		Liten Siemens Logo för påfylling av fett i stora hjullager. 
+		En python service att köras i Windows på en server för att hämta data från PLC'n och skicka den vidare till en OBCD databas. 
+
+##################################################################################
+
+	Ugnsprogramm:
+		Ett stort PLC programm uppdelat på 4 PLC'er. Jag skrev ugns PLC'n som indexerar in batcher matade av pålastningsrobotar för att sedan mata ut dom till en stor hydraulisk press.
+
+##################################################################################
+
+	Battery recyceling plant:
+		Jag var en av 4 programemrare som skrev PLC programmet till Northvolt Revolt fabrik. En process som krossar gamla batterier och separerar ut alla beståndsdelar.
+
+##################################################################################
+
+	Hydralisk press:
+		Jag skrev om programmet för att sköta pressningen av batchar från ugn (se ugnsprogramm ovan). Detta gjordes i Siemens Simotion Scaut.
+
+##################################################################################
+
+	RFID användarkontroll:
+		Jag har gjort RFID inloggning till två produktionslinjer.
+
+##################################################################################		
+		
+	Visualisering till register för väggar:
+		För att göra det lättare för operatörer att se vilka hus väggar som hör ihop med varandra har jag gjort en sorterings funktion för att färgkoda väggar i registret med samma id'n. Skrivet i TwinCAT.
+
+##################################################################################

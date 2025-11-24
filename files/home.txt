@@ -1,0 +1,6 @@
+Jag är en erfaren PLC programmerare som specialiserat mig på Siemens PLC'er och Beckhoff IPC'er. Jag skriver programm för maskinceller, produktionslinjer, mm. Men jag är också behjälplig vi felsökning eller uppdatering av befintliga system.
+
+Jag gör även enklare Python programm för kommunikation och hantering av data (pyads, snap7). Denna hemsida har jag t.ex. gjort med Python :)
+
+Jag kan hjälpa dig med utbildning.
+
