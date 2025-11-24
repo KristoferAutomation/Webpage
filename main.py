@@ -14,7 +14,7 @@ def local_css(file_name):
 
 def main():
     #Pages#####################################################
-    pageIcon = Image.open('./Logo/FullLogo.png')
+    pageIcon = Image.open('./logo/FullLogo.png')
     st.set_page_config(
         page_title='Kristofer Automation',
         page_icon = pageIcon
@@ -28,7 +28,7 @@ def main():
     """
     st.markdown(hide_st_style, unsafe_allow_html=True)
     #Display logo on top#######################################
-    logo = Image.open('./Logo/FullLogo.png') 
+    logo = Image.open('./logo/FullLogo.png') 
     st.image(logo)
     #Menu######################################################
     selected = option_menu(
