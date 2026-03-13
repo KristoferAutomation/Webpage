@@ -6,6 +6,3 @@ textColor = "#4e4949ff"
 
 [client]
 showSidebarNavigation = false
-
-[server]
-port = 8502
