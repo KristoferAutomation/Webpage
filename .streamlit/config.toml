@@ -1,0 +1,11 @@
+[theme]
+primaryColor = "#5BD453"
+backgroundColor = "#e1dce4ff"
+secondaryBackgroundColor = "#af64ffff"
+textColor = "#4e4949ff"
+
+[client]
+showSidebarNavigation = false
+
+[server]
+port = 8502

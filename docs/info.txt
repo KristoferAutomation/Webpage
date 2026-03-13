@@ -1,0 +1,26 @@
+Virtualenv
+        sudo apt install python3
+    Create an env thats named "ui":
+        virtualenv env
+    activate env:
+        source env/bin/activate
+    Check install packages:
+        pip list
+    install required packages
+        pip install -r requirements.txt
+    Create requirement.txt:
+        pip freeze > requirements.txt
+    Create wrapper to turn streamlit_ui.py to executable file (.exe)
+        def resolve_path(path):
+            return os.path.abspath(os.path.join(os.getcwd(), path))
+
+        if __name__ == "__main__":
+            sys.argv = [
+                "streamlit",
+                "run",
+                resolve_path("app.py"),
+                "--global.developmentMode=false",
+            ]
+            sys.exit(stcli.main())
+    Convert app to executable:
+        cxFreeze --script Kristofer_company.py
