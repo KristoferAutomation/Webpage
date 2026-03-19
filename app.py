@@ -11,12 +11,12 @@ st.image('banner.png')
 
 
 selected = streamlit_option_menu.option_menu(
-"Menu",
-["Home", "CV", "Contact"],
-icons=["house", "body-text", "envelope-at"],
-menu_icon="cast",
-orientation="horizontal",
-default_index=0
+    "Menu",
+    ["Home", "CV", "Contact"],
+    icons=["house", "body-text", "envelope-at"],
+    menu_icon="cast",
+    orientation="horizontal",
+    default_index=0
 )
 
 
