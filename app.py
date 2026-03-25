@@ -16,8 +16,8 @@ st.header('Main page',text_alignment='center')
 
 selected = streamlit_option_menu.option_menu(
     menu_title='',
-    options=["Home", "CV", "Contact"],#, "PDF-Handeler"],
-    icons=["house", "body-text", "envelope-at"],#, "filetype-pdf"],
+    options=["Home", "CV", "Contact", "PDF-Handeler"],
+    icons=["house", "body-text", "envelope-at", "filetype-pdf"],
     menu_icon="cast",
     orientation="horizontal",
     default_index=0
